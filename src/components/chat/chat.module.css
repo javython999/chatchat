@@ -1,0 +1,65 @@
+@value indigo, indigoLight, indigoDark from '../../common/color.css';
+
+.chatWrap {
+  color: white;
+  height: 42%;
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5em;
+  height: 100%;
+}
+
+.profileTrue {
+  align-items: flex-end;
+  padding-right: 20px;
+}
+
+.profileFalse {
+  padding-left: 20px;
+}
+
+.profileFalse,
+.profileTrue {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.profilePic {
+  width: 4rem;
+  height: 4rem;
+}
+
+.messageBox {
+  position: relative;
+  border: 1px solid indigo;
+  color: indigo;
+  word-break: break-all;
+}
+
+.messageTrue {
+  position: absolute;
+  background: rgb(255, 230, 0);
+  border-radius: 8px;
+  top: 10px;
+  right: 3em;
+  padding: 10px;
+  margin: 0 0 0 2rem;
+}
+
+.messageFalse {
+  position: absolute;
+  background: white;
+  border-radius: 8px;
+  top: 10px;
+  left: 3em;
+  padding: 10px;
+  margin: 0 2rem 0 0;
+}
+
+.hidden {
+  display: none;
+}

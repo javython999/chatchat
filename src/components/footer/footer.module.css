@@ -1,0 +1,15 @@
+@value indigo, indigoLight, indigoDark from '../../common/color.css';
+
+.footerWrap {
+  background: white;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  color: indigoDark;
+}
+
+.footerLogo {
+  width: 8rem;
+}

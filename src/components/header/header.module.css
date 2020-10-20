@@ -1,0 +1,26 @@
+@value indigo, indigoLight, indigoDark from '../../common/color.css';
+
+.headerWrap {
+  display: flex;
+  color: indigo;
+  background: white;
+  justify-content: center;
+  padding-top: 12px;
+  position: relative;
+}
+
+.headerWrap > h1 {
+  margin: 0;
+  padding: 12px 0 0 50px;
+}
+
+.logo {
+  width: 3rem;
+  height: 2.5rem;
+}
+
+.logOut {
+  position: absolute;
+  right: 10px;
+  top: 30px;
+}

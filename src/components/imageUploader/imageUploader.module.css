@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+}
+
+.input {
+  display: none;
+}
+
+.button {
+  width: 100%;
+  cursor: pointer;
+}

@@ -1,0 +1,39 @@
+@value indigo, indigoLight, indigoDark from '../../common/color.css';
+
+.login {
+  width: 80vw;
+  max-width: 800px;
+  height: 100%;
+  background: indigoDark;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  color: white;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0 0 100px 0;
+}
+
+.list > li {
+  text-align: center;
+}
+
+.list > li > button {
+  cursor: pointer;
+  width: 80%;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: 0.2em;
+}
+
+.list > li:hover > button {
+  opacity: 0.8;
+  color: indigoDark;
+}

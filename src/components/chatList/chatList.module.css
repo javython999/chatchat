@@ -1,0 +1,15 @@
+@value indigo, indigoLight, indigoDark from '../../common/color.css';
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.chatListWrap {
+  width: 80vw;
+  max-width: 1200px;
+  height: 60vh;
+  margin: 0 auto;
+  border: 1px solid indigo;
+  background: indigo;
+  overflow-y: scroll;
+}

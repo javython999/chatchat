@@ -1,0 +1,42 @@
+@value indigo, indigoLight, indigoDark from '../../common/color.css';
+
+.writeWrap {
+  border: 1px solid indigo;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.profileSection {
+  width: 30%;
+  border: 1px solid indigo;
+}
+
+.profileImg {
+  width: 80px;
+}
+
+.textWriteSection {
+  width: 70%;
+}
+
+.from {
+  display: flex;
+  flex-direction: column;
+}
+
+.nickName {
+  font-size: 1.5rem;
+}
+
+.textarea {
+  font-size: 1.5rem;
+}
+
+.button {
+  font-size: 1.5rem;
+}
+
+.hidden {
+  display: none;
+}
