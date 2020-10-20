@@ -2,12 +2,13 @@
   "name": "chatchat",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://javython999.github.io/chatchat/",
+  // "homepage": "https://javython999.github.io/chatchat/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "firebase": "^7.24.0",
+    "gh-pages": "^3.1.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-router-dom": "^5.2.0",
@@ -15,6 +16,8 @@
     "react-scroll-to-bottom": "^4.0.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
