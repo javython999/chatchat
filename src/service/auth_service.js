@@ -5,7 +5,7 @@ class AuthService {
   // 로그인
   login(providerName) {
     const authProvider = new firebase.auth[`${providerName}AuthProvider`]();
-    return firebase.auth().signInWithPopup(authProvider);
+    return firebaseApp.auth().signInWithPopup(authProvider);
   }
 
   // 유저 로그인 상태 확인
